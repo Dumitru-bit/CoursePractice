@@ -1,11 +1,15 @@
-import HelloJavaWorld.PrintClass;
+import HW2.Exercise1;
+import HW2.Exercise2;
+import HW2.Exercise3;
+import HW2.Exercise4;
+import HW2.Exercise5;
+import HW2.Exercise6;
+import HW2.Exercise7;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.util.Scanner;
 public class Main {
-    public static void main (String[] args) {
-        PrintClass FirstPrint = new PrintClass();
-        FirstPrint.printMessage("Hello Java World!");
-    }
+    public static void main(String[] args) {
 
+        Exercise7.exercise7();
+    }
 }
