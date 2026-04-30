@@ -25,6 +25,7 @@ public class Hw3Exercise3 {
 
         if (n != 0 && nAbs < 1.0) System.out.println("small");
         else if (n != 0 && nAbs > 1000000.0) System.out.println("large");
+
         inputFromUser.close();
     }
 }

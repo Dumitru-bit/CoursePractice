@@ -30,6 +30,7 @@ public class Hw3Exercise5 {
         //print the message using ternary operator
         double totalPrice = (amount > 100) ? ((double) amount * priceDisc) : ((double) amount * price);
         System.out.println("Total price is: " + totalPrice);
+
         inputFromUser.close();
     }
 

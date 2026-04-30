@@ -32,6 +32,7 @@ public class Hw3Exercise2 {
         else if (s1 > s2) System.out.println("Area of rectangle 1 (" + s1 + ")" +" > Area of rectangle 2 (" + s2 + ")");
         else System.out.println("Area of rectangle 1 (" + s1 + ")" +" < Area of rectangle 2 (" + s2 + ")");
 
+        inputFromUser.close();
     }
 
 }
