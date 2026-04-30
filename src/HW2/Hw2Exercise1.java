@@ -15,7 +15,7 @@ You live in Chisinau.
 Concepts practiced: Scanner, String, int, String concatenation.
 
  */
-public class Exercise1 {
+public class Hw2Exercise1 {
     public static void exercise1 () {
         Scanner inputFromUser = new Scanner(System.in);
 
@@ -36,5 +36,7 @@ public class Exercise1 {
         System.out.println("Hello " + name + "!");
         System.out.println("You are " + age + " years old.");
         System.out.println("You live in " + city);
+
+        inputFromUser.close();
     }
 }

@@ -18,7 +18,7 @@ Enter hours worked: 40
 Anna's salary is: 400
 
  */
-public class Exercise4 {
+public class Hw2Exercise4 {
     public static void exercise4() {
         Scanner inputFromUser = new Scanner(System.in);
 
@@ -34,5 +34,7 @@ public class Exercise4 {
 
         // print the salary
         System.out.println(name + "'s salary is: " + rate * hours);
+
+        inputFromUser.close();
     }
 }

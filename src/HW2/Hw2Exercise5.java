@@ -15,7 +15,7 @@ Enter number of years: 10
 In 10 years you will be 34 years old.
 
  */
-public class Exercise5 {
+public class Hw2Exercise5 {
     public static void exercise5() {
         Scanner inputFromUser = new Scanner(System.in);
 
@@ -28,5 +28,7 @@ public class Exercise5 {
 
         //print the result
         System.out.println("In " + years + " years you will be " + (age + years) + " years old.");
+
+        inputFromUser.close();
     }
 }

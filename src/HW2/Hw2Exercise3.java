@@ -12,7 +12,7 @@ Enter temperature in Celsius: 20
 Temperature in Fahrenheit: 68.0
 
  */
-public class Exercise3 {
+public class Hw2Exercise3 {
     public static void exercise3() {
         Scanner inputFromUser = new Scanner(System.in);
 
@@ -22,5 +22,7 @@ public class Exercise3 {
 
         //print the temperature in Fahrenheit
         System.out.println("Temperature in Fahrenheit: " + (tempC * 9 / 5 + 32));
+
+        inputFromUser.close();
     }
 }

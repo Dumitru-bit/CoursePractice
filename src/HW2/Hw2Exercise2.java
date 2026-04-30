@@ -21,7 +21,7 @@ Product: 50
 Division: 2
 
  */
-public class Exercise2 {
+public class Hw2Exercise2 {
     public static void exercise2 (){
         Scanner inputFromUser = new Scanner(System.in);
 
@@ -42,5 +42,7 @@ public class Exercise2 {
 
         // print the division
         System.out.println("Division: " + (int1 / int2));
+
+        inputFromUser.close();
     }
 }

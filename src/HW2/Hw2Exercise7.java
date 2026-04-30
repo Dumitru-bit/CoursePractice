@@ -11,7 +11,7 @@ Ask the user for:
 Print a message like: John is 24 years old and loves Java!
 Extra challenge: add another sentence using String concatenation.
  */
-public class Exercise7 {
+public class Hw2Exercise7 {
     public static void exercise7() {
 
         Scanner inputFromUser = new Scanner(System.in);
@@ -29,5 +29,7 @@ public class Exercise7 {
 
         // print the result
         System.out.println(name + " is " + age + " years old and loves " + progLang + "!");
+
+        inputFromUser.close();
     }
 }

@@ -1,5 +1,4 @@
 package HW2;
-import java.util.Scanner;
 
 // Exercise 6: Operator challenge
 /*
@@ -21,7 +20,7 @@ Tasks:
 3. Explain why the output is correct.
 
  */
-public class Exercise6 {
+public class Hw2Exercise6 {
     public static void exercise6() {
 
         int a = 10;
