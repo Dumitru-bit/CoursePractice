@@ -1,9 +1,9 @@
-import HW4.Hw4Exercise7;
+import HW5.Hw5Exercise6;
 
 public class Main {
     public static void main(String[] args) {
 
-        Hw4Exercise7.exercise7();
+        Hw5Exercise6.exercise6();
 
     }
 }
